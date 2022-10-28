@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/10/2022, 12:43:11 PM
+    Author     : 50256
+*/
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url('fondo_purple.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.wrapper{
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;   
+}
+
+.wrapper_header{
+    grid-column : 1/7;
+    
+}
+
+.middle{
+    grid-column: 2/6;
+    
+}
+
+.wrapper_footer{
+    grid-column: 1/4;
+}
+
+.header{
+    list-style: none;
+    padding: 0;
+    background: purple;
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    display: block; 
+    transition: background 0.3s ease-in-out;
+}
+
+.header li{
+    display: inline-block;
+    text-align: center;    
+}
+
+.header li a:hover{
+    background: #8843AB;
+}
